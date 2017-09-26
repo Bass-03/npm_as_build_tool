@@ -1,0 +1,36 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+      "browser": true,
+      "node": true,
+      "mocha": true
+    },
+    "parser": "typescript-eslint-parser",
+    "rules": {
+      "no-console": "off",
+      "prefer-template":"off",
+      "strict":"off",
+      "comma-dangle":["error", "never"],
+      "typescript/type-annotation-spacing":"error",
+      "typescript/interface-name-prefix":"error",
+      "typescript/no-triple-slash-reference":"error",
+      "typescript/no-explicit-any":"error",
+      "typescript/no-angle-bracket-type-assertion":"error",
+      "typescript/no-namespace":"error",
+      "typescript/no-use-before-define":"error",
+      "typescript/prefer-namespace-keyword":"error",
+      "typescript/no-type-alias":"error",
+      "typescript/member-ordering":"error",
+      "typescript/no-unused-vars":"error",
+      "typescript/adjacent-overload-signatures":"error",
+      "typescript/no-parameter-properties":"error",
+      "typescript/class-name-casing":"error",
+      "typescript/member-delimiter-style":"error",
+      "typescript/no-empty-interface":"error"
+    },
+    "plugins": [
+       "mocha",
+       "import",
+       "typescript"
+   ]
+}
